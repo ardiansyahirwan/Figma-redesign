@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Figma Re-Design</title>
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+   <!-- Fonts -->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&display=swap" rel="stylesheet">
+<!-- Main CSS -->
+<link rel="stylesheet" href="dist/css/main.css">
+</head>
+<body>
+   <header>
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+         <div class="container d-flex">
+           <a class="navbar-brand" href="#">
+              <img src="dist/img/Figma logo.png" alt="Figma Logo">
+           </a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+             <ul class="navbar-nav mb-2 mb-lg-0">
+               <li class="nav-item">
+                 <a class="nav-link active" aria-current="page" href="#">Features</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">Pricing</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">Costumers</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">Blog</a>
+               </li>
+               <li>
+                  <a href="#" class="btn sign-in-top me-2">Sign In</a>
+                  <a href="#" class="btn btn-primer sign-up-top">Sign Up</a>
+               </li>
+             </ul>
+           </div>
+         </div>
+       </nav>
+       <!-- Navbar End -->
+
+       <!-- hero section -->
+       <section id="hero">
+          <div class="container d-flex">
+             <div class="row align-items-md-center">
+                <div class="col col-md-5">
+                   <h1>A better way</br>
+                     to <span>design.</span>
+                     </h1>
+                     <p class="py-3">Design, prototype, and collaborate all in the</br> browser —with Figma.</p>
+                     <a href="#" class="btn btn-primer sign-up-hero">Sign Up</a>
+                </div>
+                <div class=" col col-md-7">
+                   <img class="img-fluid" src="dist/img/Macbook.png" alt="hero image">
+                </div>
+             </div>
+          </div>
+       </section>
+       <!-- end hero -->
+   </header>
+   <main>
+      <!-- Brands section -->
+      <section id="brands">
+         <div class="container d-flex justify-content-center">
+            <div class="row align-items-center text-center mt-4">
+               <div class="col col-md-12">
+                  <h6 class="mb-5">Empower Innovative Brands</h6>
+                  <img src="dist/img/img brand.png" alt="Brands">
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End Brands section -->
+
+      <!-- your design section -->
+      <section id="your-design">
+         <div class="container text-center">
+            <h6 class="h-green">Collaborate with everyone, at every phase</h6>
+            <h6>Design, prototype, and collaborate all in</br> the browser —with Figma.</h6>
+
+            <!-- Image card -->
+            <div class="row card-features">
+               <div class="col-4 d-flex justify-content-center">            
+                     <div class="card-box-1">
+                        <img src="dist/img/designers_image.png" alt="design-image-card">
+                        <div class="content">
+                           <h6>Your Designer</h6>
+                           <p>Collaborate in context and in real time. Never worry about your files being out of date or overwriting each other’s work.</p>
+                        </div>
+                     </div>
+               </div>
+               <div class="col-4 d-flex justify-content-center position-relative">
+                     <div class="card-box-2 position-absolute">
+                        <img src="dist/img/designers_image (2).png" alt="design-image-card">
+                        <div class="content">
+                           <h6>Your stackholders</h6>
+                           <p>Simply send a link to collect feedback, get change requests, and allow stakeholders to make copy updates in your designs.</p>
+                        </div>
+                     </div>
+               </div>
+               <div class="col-4 d-flex justify-content-center">
+                     <div class="card-box-3">
+                        <img src="dist/img/designers_image (1).png" alt="design-image-card">
+                        <div class="content">
+                           <h6>Your developers</h6>
+                           <p>Engineers always have access to the current source-of-truth and can inspect elements, export assets, and copy code.</p>
+                        </div>
+                     </div>
+               </div>
+               <!-- Ending Image -->
+            </div>
+            <!-- button -->
+            <a href="" class="btn btn-primer py-3 px-4">Try figma for free</a>
+
+         </div>
+      </section>
+      <!-- End Your Design  -->
+
+      <!-- Form section -->
+      <section id="form">
+         <div class="container text-center">
+            <h6 class="form-header">Try Figma For Free</h6>
+            <form action="#" method="POST">
+               <a href="#" class="btn btn-google"><img src="dist/img/Google.png" class="pe-3" alt="google">Sign Up with Google</a>
+               <br><p class="or">or</p>
+               <label for="username">
+                  <input type="email" name="username" id="username" placeholder="Email/username">
+               </label> <br>
+               <label for="password">
+                  <input type="password" name="password" id="password" placeholder="Password">
+               </label><br>
+
+               <button type="submit" class="btn btn-create-acc">Create Account</button>
+            </form>
+            <p class="text-little pt-4">Sign Up with <a href="#">SAML SSO</a></p>
+            <p>Already have an account? <a href="#">Sign In</a></p>
+         </div>
+      </section>
+      <!-- sEnd Form section -->
+   </main>
+   <footer>
+      <div class="container">
+         <div class="row">
+            <div class="col-12 col-md-3">
+               <img class="figma-footer-logo" src="dist/img/figma logo footer.png" alt="Figma Logo">
+               <ul class="list-unstyled">
+                  <li><a href="#"><img src="dist/img/Instagram.svg" alt="instagram">Instagram</a></li>
+                  <li><a href="#"><img src="dist/img/Facebook.svg" alt="Facebook">Facebook</a></li>
+                  <li><a href="#"><img src="dist/img/Twitter.svg" alt="Twitter">Twitter</a></li>
+               </ul>
+            </div>
+            <div class="col-12 col-md-9">
+               <div class="row">
+                  <div class="col-12 col-md-3">
+                     <h6>Use Cases</h6>
+                     <ul class="list-unstyled">
+                        <li><a href="#">UI Design</a> </li>
+                        <li><a href="#">UX Design</a></li>
+                        <li><a href="#">Prototyping</a></li>
+                        <li><a href="#">Graphic Design</a></li>
+                        <li><a href="#">Wireframing</a></li>
+                        <li><a href="#">Brainstorming</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-12 col-md-3">
+                     <h6>Explore</h6>
+                     <ul class="list-unstyled">
+                        <li><a href="#">Figma</a></li>
+                        <li><a href="#">Customers</a></li>
+                        <li><a href="#">Why I love Figma</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Learn Design</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-12 col-md-3">
+                     <h6>Resources</h6>
+                     <ul class="list-unstyled">
+                        <li><a href="#">Community Resources Hub</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Education</a></li>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">Dowonloads</a></li>
+                        <li><a href="#">Releases</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="#">Design Dictionary</a></li>
+                     </ul>
+                  </div>
+                  <div class="col-12 col-md-3">
+                     <h6>Compare</h6>
+                     <ul class="list-unstyled">
+                        <li><a href="#">Sketch</a></li>
+                        <li><a href="#">Adobe XD</a></li>
+                        <li><a href="#">Invision Studio</a></li>
+                        <li><a href="#">Framer</a></li>
+                        <li><a href="#">Design On Windows</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

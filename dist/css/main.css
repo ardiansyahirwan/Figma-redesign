@@ -1,0 +1,460 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Poppins', 'Karla', sans-serif;
+  color: #fff;
+}
+
+/* Background Color*/
+header,
+nav,
+#your-design,
+footer {
+  background-color: black;
+}
+
+header {
+  padding-top: 4.7em;
+}
+
+#brands,
+#form {
+  background: #44D69F;
+}
+
+/* End Background Color*/
+/* Hero section */
+#hero {
+  -webkit-box-shadow: 0px 3px 70px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 3px 70px rgba(0, 0, 0, 0.5);
+}
+
+#hero h1 {
+  font-weight: bold;
+}
+
+#hero span {
+  color: #44D69F;
+}
+
+#hero p {
+  font-family: 'Karla';
+  font-style: normal;
+}
+
+/* End Hero section */
+h6 {
+  font-size: 24px;
+}
+
+/* Your Design section */
+#your-design .h-green {
+  color: #36C991;
+  font-weight: 600;
+  font-family: 'Poppins';
+}
+
+#your-design h6 {
+  font-weight: 700;
+  font-family: 'Karla';
+}
+
+#your-design .card-features .card-box-1 img,
+#your-design .card-features .card-box-2 img,
+#your-design .card-features .card-box-3 img {
+  border-radius: 29px;
+}
+
+#your-design .card-features .card-box-1 h6,
+#your-design .card-features .card-box-2 h6,
+#your-design .card-features .card-box-3 h6 {
+  text-transform: uppercase;
+  font-weight: 500px;
+  color: #3EC290;
+  letter-spacing: 0.2em;
+}
+
+#your-design .card-features .card-box-1 p,
+#your-design .card-features .card-box-2 p,
+#your-design .card-features .card-box-3 p {
+  font-family: 'Karla';
+  color: #D9D9D9;
+}
+
+/* End Your Design section */
+/* Form section */
+#form h6 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#form form input[type="email"],
+#form form input[type="password"] {
+  padding: 1em;
+  margin-bottom: 2em;
+  border: 2px solid #278763;
+}
+
+#form form #username::-webkit-input-placeholder,
+#form form #password::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.25);
+}
+
+#form p.text-little {
+  font-weight: 700;
+}
+
+#form p.text-little a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#form p.text-little a:hover {
+  font-weight: 600;
+}
+
+#form p a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+}
+
+#form p a:hover {
+  font-weight: 600;
+}
+
+/* End Form section */
+/* Footer*/
+footer h6 {
+  font-weight: 600;
+}
+
+footer .list-unstyled {
+  margin-top: 1.5em;
+}
+
+footer .list-unstyled li {
+  padding-bottom: 10px;
+}
+
+footer .list-unstyled a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer .list-unstyled a:hover {
+  text-decoration: underline;
+}
+
+/* End Footer*/
+@media only screen and (max-width: 576px) {
+  /* For Phone */
+  .navbar-nav .nav-item {
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .sign-in-top {
+    font-size: 12px;
+  }
+  .sign-up-top {
+    font-size: 12px;
+  }
+  /* Hero section */
+  #hero h1 {
+    font-size: 12px;
+  }
+  #hero p {
+    font-size: 18px;
+  }
+  #hero img {
+    display: none;
+  }
+  #hero .col-7 {
+    display: none;
+  }
+  #hero .sign-up-hero {
+    font-size: 15px;
+  }
+  /* End Hero section */
+  /* Brands section */
+  section#brands .container {
+    height: 46vw;
+  }
+  section#brands h6 {
+    font-size: 20px;
+  }
+  section#brands img {
+    width: 80%;
+    height: 80%;
+  }
+  /* End Brands section */
+}
+
+@media only screen and (min-width: 992px) {
+  /* For Dekstop */
+  .navbar-nav .nav-item {
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 30px;
+  }
+  .navbar-nav .active {
+    font-weight: 700;
+  }
+  .sign-in-top {
+    font-size: 14px;
+  }
+  .sign-up-top {
+    font-size: 12px;
+  }
+  /* Hero section */
+  #hero .container {
+    height: 582px;
+  }
+  #hero h1 {
+    font-size: 58px;
+  }
+  #hero img {
+    margin-top: 15em;
+  }
+  #hero p {
+    font-size: 22px;
+  }
+  #hero .sign-up-hero {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 82px;
+  }
+  /* End Hero section */
+  /* Brands section */
+  section#brands .container {
+    height: 32vw;
+  }
+  section#brands h6 {
+    font-weight: 700;
+  }
+  /* End Brands section */
+  /* Your Design section */
+  #your-design .container {
+    padding-top: 8em;
+    padding-bottom: 5em;
+  }
+  #your-design .card-features {
+    margin-top: 8em;
+  }
+  #your-design .card-features .card-box-1,
+  #your-design .card-features .card-box-2,
+  #your-design .card-features .card-box-3 {
+    width: 100%;
+  }
+  #your-design .card-features .card-box-1 .content,
+  #your-design .card-features .card-box-2 .content,
+  #your-design .card-features .card-box-3 .content {
+    padding-top: 6em;
+    padding-right: 4em;
+    padding-left: 4em;
+    padding-bottom: 0.5em;
+  }
+  #your-design .card-features .card-box-1 .content h6,
+  #your-design .card-features .card-box-2 .content h6,
+  #your-design .card-features .card-box-3 .content h6 {
+    font-size: 18px;
+    letter-spacing: 0.2em;
+  }
+  #your-design .card-features .card-box-1 .content p,
+  #your-design .card-features .card-box-2 .content p,
+  #your-design .card-features .card-box-3 .content p {
+    line-height: 35px;
+    margin-top: 10px;
+  }
+  #your-design .card-features .card-box-2 {
+    top: 18em;
+  }
+  #your-design a {
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 18em;
+  }
+  /* End Your Design section */
+  /* Form section */
+  #form {
+    padding-top: 5em;
+    padding-bottom: 4em;
+  }
+  #form h6 {
+    font-size: 24px;
+    padding-bottom: 2em;
+  }
+  #form .btn-google {
+    width: 360px;
+  }
+  #form .or {
+    font-size: 18px;
+    padding: 1em 1em;
+  }
+  #form form input[type="email"],
+  #form form input[type="password"] {
+    width: 360px;
+  }
+  #form .btn-create-acc {
+    font-size: 16px;
+    width: 360px;
+  }
+  #form .text-little,
+  #form p {
+    font-size: 14px;
+  }
+  /* end Form section */
+  /* Footer*/
+  footer {
+    padding-top: 10em;
+    padding-bottom: 7em;
+    /* End Footer*/
+  }
+  footer h6 {
+    font-size: 18px;
+  }
+  footer .figma-footer-logo {
+    padding-bottom: 1em;
+  }
+  footer .list-unstyled li {
+    font-size: 14px;
+  }
+  footer .list-unstyled li img {
+    padding-right: 5px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  /* For Tablets */
+  .sign-in-top {
+    font-size: 14px;
+  }
+  .sign-up-top {
+    font-size: 12px;
+  }
+  /* Hero section */
+  #hero .container {
+    height: 400px;
+  }
+  #hero h1 {
+    font-size: 40px;
+  }
+  #hero p {
+    font-size: 18px;
+  }
+  #hero img {
+    margin-top: 14.5em;
+  }
+  #hero .sign-up-hero {
+    font-size: 15px;
+  }
+  /* End Hero section */
+  /* Brands section */
+  section#brands .container {
+    height: 46vw;
+  }
+  section#brands h6 {
+    font-size: 20px;
+  }
+  /* End Brands section */
+  /* Your Design section */
+  #your-design {
+    padding-top: 6em;
+  }
+  #your-design h6 {
+    font-size: 20px;
+  }
+  #your-design .card-features {
+    padding-top: 3em;
+  }
+  #your-design .card-features .card-box-1 .content,
+  #your-design .card-features .card-box-2 .content,
+  #your-design .card-features .card-box-3 .content {
+    padding-top: 2em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    padding-bottom: 0.5em;
+  }
+  #your-design .card-features .card-box-1 .content h6,
+  #your-design .card-features .card-box-2 .content h6,
+  #your-design .card-features .card-box-3 .content h6 {
+    font-size: 14px;
+    letter-spacing: 0.1em;
+  }
+  #your-design .card-features .card-box-1 .content p,
+  #your-design .card-features .card-box-2 .content p,
+  #your-design .card-features .card-box-3 .content p {
+    font-size: 13px;
+  }
+  #your-design .card-features .card-box-1 img,
+  #your-design .card-features .card-box-2 img,
+  #your-design .card-features .card-box-3 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 29px;
+  }
+  /* End Your Design section */
+}
+
+/*button*/
+.btn-primer {
+  background: #3EC290;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.btn-primer:hover {
+  background: #3c8167;
+  color: #fff;
+  border: 2px solid #3EC290;
+}
+
+.sign-up-top {
+  font-weight: 500;
+  padding: 6px 36px;
+}
+
+.sign-in-top {
+  font-weight: 500;
+  padding: 6px 36px;
+  border: 1px solid #3EC290;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.sign-in-top:hover {
+  border: 2px solid #04f196;
+  color: #fff;
+}
+
+.sign-up-hero {
+  font-weight: 600;
+}
+
+.btn-google {
+  background: #E5E5E5;
+  border: 2px solid #278763;
+  padding: 1em;
+}
+
+.btn-google:hover {
+  background: #c9c8c8;
+}
+
+.btn-create-acc {
+  background: #FFD626;
+  color: #6F5A00;
+  font-weight: 600;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.btn-create-acc:hover {
+  background: #dab927;
+}
+
+/* end button */
+/*# sourceMappingURL=main.css.map */
